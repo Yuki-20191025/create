@@ -1,0 +1,192 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #393939;
+    padding: 20px 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.logo{
+    height: 50px;
+    padding-left: 50px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav>li>a {
+    color: #C9C9C9;
+    font-size: 15px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.top {
+    background-image: url(../img/business.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 150px;
+}
+
+@media screen and (max-width:780px){
+    .top{
+        height: 40vh;
+        width: 100%;
+        background-size: cover;
+    }
+}
+
+.title {
+    font-size: 80px;
+    line-height: 1.5;
+}
+
+.guideline {
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width:780px){
+    .title{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+.button1 {
+    padding-top: 20px;
+}
+
+.button2 {
+    padding-top: 20px;
+}
+
+.btn {
+    background-color: #F9125E;
+    color: white;
+    border-radius: 2.5rem;
+    font-size: 25px;
+    padding: 20px;
+    letter-spacing: 3px;
+}
+
+.btn1 {
+    background-color: #0E78D6;
+    color: white;
+    border-radius: 2.5rem;
+    font-size: 28px;
+    padding: 20px;
+    letter-spacing: 3px;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 60px;
+    padding: 100px;
+}
+
+h3 {
+    font-size: 40px;
+    line-height: 2.0;
+}
+
+h4 {
+    font-size: 40px;
+    line-height: 2.0;
+}
+
+.under {
+    border-bottom: solid 15px yellow;
+}
+
+.contents>img {
+    height: 250px;
+}
+
+.contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+
+.text {
+    width: 40%;
+    padding: 40px;
+}
+
+p {
+    font-size: 20px;
+    padding-top: 30px;
+    line-height: 2.0;
+}
+
+.line {
+    background-image: url(../img/meeting3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+h5 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 200px;
+    line-height: 1.5;
+    letter-spacing: 1.5rem;
+}
+
+.area {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding-top: 30px;
+    letter-spacing: 0.3rem;
+    line-height: 1.5;
+}
+
+h6 {
+    text-align: center;
+    font-size: 35px;
+    padding-top: 100px;
+}
+
+.button3 {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+.tab {
+    background-image: url(../img/meeting2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+footer {
+    text-align: center;
+    background-color: #393939;
+    color: #C9C9C9;
+    padding: 20px 0;
+    font-size: 20px
+}
+
+
+
+
+
