@@ -12,6 +12,7 @@ header {
     z-index: 1;
 }
 
+
 .logo{
     height: 50px;
     padding-left: 50px;
@@ -26,6 +27,28 @@ header {
     font-size: 15px;
     margin-left: 40px;
     text-decoration: none;
+    display: inline;
+}
+
+@media screen and (max-width:780px){
+    header {
+        padding: 10px 20px;
+        justify-content: left;
+    }
+
+    .logo {
+        padding-left: 8px;
+        height: 25px;
+    }
+
+    .nav>li>a {
+        font-size: 10px;
+        margin: 15px;
+    }
+
+    .nav>li>a>.btn {
+        padding: 5px;
+    }
 }
 
 .top {
@@ -37,13 +60,6 @@ header {
     padding: 150px;
 }
 
-@media screen and (max-width:780px){
-    .top{
-        height: 40vh;
-        width: 100%;
-        background-size: cover;
-    }
-}
 
 .title {
     font-size: 80px;
@@ -57,36 +73,60 @@ header {
 }
 
 @media screen and (max-width:780px){
-    .title{
-        font-size: 20px;
-        text-align: center;
+    .top {
+        height: 60vh;
+        padding: 50px;
+        padding-top: 60px;
     }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .guideline {
+        font-size: 15px;
+    }
+
 }
 
 .button1 {
-    padding-top: 20px;
+    padding-top: 60px;
 }
 
 .button2 {
-    padding-top: 20px;
+    padding-top: 80px;
 }
 
 .btn {
     background-color: #F9125E;
     color: white;
     border-radius: 2.5rem;
-    font-size: 25px;
+    font-size: 23px;
     padding: 20px;
     letter-spacing: 3px;
+    text-decoration: none;
+    transition: 2s;
+    display: inline-block;
+}
+
+.btn:hover {
+    transform: scale(1.1);
 }
 
 .btn1 {
     background-color: #0E78D6;
     color: white;
     border-radius: 2.5rem;
-    font-size: 28px;
+    font-size: 27px;
     padding: 20px;
     letter-spacing: 3px;
+    text-decoration: none;
+    transition: 2s;
+    display: inline-block;
+}
+
+.btn1:hover {
+    transform: scale(1.1);
 }
 
 .sub-title {
@@ -119,6 +159,52 @@ h4 {
     align-items: center;
     flex-direction: row;
     padding-bottom: 40px;
+}
+
+@media screen and (max-width:780px){
+    .contents {
+        width: 100%;
+        flex-direction: column;
+        padding-bottom: 15px;
+    }
+
+    .sub-title {
+        font-size: 30px;
+        padding: 50px;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 2.0;
+    }
+
+    h4 {
+        font-size: 18px;
+        line-height: 2.0;
+    }
+
+    .btn {
+        font-size: 13px;
+        border-radius: 3.0rem;
+        padding: 10px;
+        letter-spacing: 5px;
+    }
+
+    .btn1 {
+        font-size: 16px;
+        border-radius: 3.0rem;
+        padding: 10px;
+        letter-spacing: 5px;
+    }
+
+    .button1 {
+        padding-top: 40px;
+    }
+
+    .button2 {
+       padding-top: 40px;
+    }
+
 }
 
 .text {
@@ -157,9 +243,38 @@ h5 {
     line-height: 1.5;
 }
 
+@media screen and (max-width:780px){
+    .text {
+        width: auto;
+        padding: 20px;
+    }
+    
+    .line {
+        height: 50vh;
+        
+    }
+
+    p {
+        font-size: 15px;
+        padding-top: 15px;
+        line-height: 2.0;
+    }
+
+    h5 {
+        font-size: 22px;
+        padding-top: 100px;
+    }
+
+    .area {
+        font-size: 12px;
+        padding-top: 15px;
+    }
+
+}
+
 h6 {
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     padding-top: 100px;
 }
 
@@ -175,7 +290,8 @@ h6 {
     background-image: url(../img/meeting2.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 30vh;
+    height: 5vh;
+    padding-bottom: 200px;
 }
 
 footer {
@@ -186,6 +302,20 @@ footer {
     font-size: 20px
 }
 
+
+@media screen and (max-width:780px){
+    h6 {
+        font-size: 35px;
+        margin: 10px;
+    }
+    .tab {
+        padding-bottom: 100px;
+        height: 8vh;
+    }
+    footer {
+        font-size: 10px;
+    }
+}
 
 
 
